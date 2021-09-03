@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: brown;
+}
+
+.header button {
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    position: relative;
+    top: 12px;
+    background: #6b0d0d;
+    color: white;
+}
+
+.header p {
+    color: cornsilk;
+    font-size: 20px;
+}
