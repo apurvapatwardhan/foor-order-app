@@ -1,0 +1,8 @@
+.page {
+    background-color: #4d4343;
+    height: 100%;
+}
+
+.blur {
+    filter: blur(5px);
+}

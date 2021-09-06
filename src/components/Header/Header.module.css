@@ -1,3 +1,4 @@
+
 .header {
     width: 100%;
     position: fixed;
@@ -5,6 +6,8 @@
     flex-direction: row;
     justify-content: space-around;
     background-color: brown;
+    z-index: 10;
+    margin: 0px;
 }
 
 .header button {
@@ -21,3 +24,32 @@
     color: cornsilk;
     font-size: 20px;
 }
+
+.header i {
+    position: relative;
+    right: 10px;
+}
+
+.bg img {
+
+    width: 100%;
+    position: relative;
+    top: 63px;
+    height: 100%;
+}
+
+.bg div {
+    display: inline-block;
+    width: 33%;
+    height: 150px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    font-family: cursive;
+    font-size: 30px;
+    position: relative;
+    bottom: 250px;
+    background-color: #857b7b;
+    left: 450px;
+}
+

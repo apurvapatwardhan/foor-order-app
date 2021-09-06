@@ -4,7 +4,7 @@ import styles from "./Button.module.css"
 function Button(props) {
     return (
         <React.Fragment>
-            <button className ={styles.button} onClick = {props.onClick}>{props.children}</button>
+            <button style ={props.style} className ={`${styles.button} ${props.className}`} onClick = {props.onClick}>{props.children}</button>
         </React.Fragment>
     )
 }

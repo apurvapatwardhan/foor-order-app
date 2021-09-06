@@ -1,0 +1,37 @@
+.desc{
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.desc h2 {
+    font-size: medium;
+    color: black;
+}
+
+.desc h3 {
+    font-size: small;
+    color: black;
+}
+
+.desc p {
+    font-size: medium;
+    color: brown;
+}
+
+.inp {
+    display: inline-block;
+    position: relative;
+    left: 610px;
+    bottom: 110px;
+}
+
+.inp button {
+    width: 70px;
+    margin-left: 6px;
+    border: none;
+    background: #ff7979;
+}
+
+.inp h3 {
+    font-family: system-ui;
+}
